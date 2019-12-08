@@ -1,5 +1,5 @@
-MapFile   = 'BrandeisMapLabeled.jpg';
-RouteFile = 'Route.txt';
+MapFile   = '../data/BrandeisMapLabeled.jpg';
+RouteFile = '../out/Route.txt';
 
 %Display the map:
 Map = imread(MapFile);
