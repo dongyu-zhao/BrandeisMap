@@ -7,8 +7,8 @@ import java.io.FileNotFoundException;
 import java.util.*;
 
 public class Graph {
-    private Vertex[] vertices;
-    private Edge[] edges;
+    Vertex[] vertices;
+    Edge[] edges;
 
     public Graph(String verticesFileName, String edgesFileName) {
         vertices = new Vertex[Constants.MAX_VERTEX];

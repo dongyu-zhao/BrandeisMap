@@ -20,6 +20,7 @@ public class Edge {
     private String name;
 
     public Edge(int ix, Vertex v1, Vertex v2, int length, int angle, String direction, char type, String name) {
+        this.ix = ix;
         this.v1 = v1;
         this.v2 = v2;
         this.length = length;
