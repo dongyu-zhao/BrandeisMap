@@ -1,4 +1,4 @@
-package dataStructure;
+package MapFolder.dataStructure;
 
 public class Edge {
     public static final int WALK_SPEED = 272;

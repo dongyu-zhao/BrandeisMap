@@ -1,6 +1,8 @@
-import dataStructure.Edge;
-import dataStructure.Time;
-import dataStructure.Vertex;
+package MapFolder;
+
+import MapFolder.dataStructure.Edge;
+import MapFolder.dataStructure.Time;
+import MapFolder.dataStructure.Vertex;
 
 import java.io.File;
 import java.io.FileWriter;

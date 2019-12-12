@@ -1,4 +1,4 @@
-package dataStructure;
+package MapFolder.dataStructure;
 
 import java.util.Arrays;
 

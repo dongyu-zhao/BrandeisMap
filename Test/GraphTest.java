@@ -1,4 +1,5 @@
-import dataStructure.Edge;
+import MapFolder.Graph;
+import MapFolder.dataStructure.Edge;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

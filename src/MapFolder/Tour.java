@@ -1,4 +1,6 @@
-import dataStructure.*;
+package MapFolder;
+
+import MapFolder.dataStructure.*;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -19,7 +21,7 @@ public class Tour {
         while (!heap.isEmpty()) {
             Edge e = g.edges[heap.deleteMin()];
             Vertex u = e.getV2();
-            if (visit[u.getIx()]) continue;
+            if (visit[u.getIx()] || u.getIx() < Constants.MIN_VERTEX) continue;
             visit[u.getIx()] = true;
             treeNodes[u.getIx()] = new TreeNode(u.getIx());
             treeNodes[e.getV1().getIx()].addChild(treeNodes[u.getIx()]);
@@ -64,7 +66,7 @@ public class Tour {
         UnionFind uf = new UnionFind(Constants.MAX_VERTEX);
         MinHeap heap = new MinHeap(Constants.MAX_EDGE, Comparator.comparingInt(x -> g.edges[x].getLength()));
         for (Edge e : g.edges) {
-            if (e != null) heap.insert(e.getIx());
+            if (e != null && e.getIx() >= Constants.MIN_EDGE) heap.insert(e.getIx());
         }
         while (!heap.isEmpty()) {
             Edge e = g.edges[heap.deleteMin()];

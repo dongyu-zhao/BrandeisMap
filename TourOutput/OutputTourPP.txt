@@ -1,7 +1,5 @@
 61 - (100,6) [A -> L2] 
 59 - (6,5) [L2 -> L1] 
-13 - (5,1) [L1 -> AAA] Edge Connecting Map Upper Left Corner To A Map Location
-12 - (1,5) [AAA -> L1] Edge Connecting Map Upper Left Corner To A Map Location
 58 - (5,6) [L1 -> L2] 
 62 - (6,7) [L2 -> L3] 
 66 - (7,103) [L3 -> D] 
@@ -24,8 +22,6 @@
 35 - (105,102) [F -> C] South Street
 23 - (102,39) [C -> L35] Turner Street
 24 - (39,40) [L35 -> L36] South Street
-17 - (40,3) [L36 -> CCC] Edge Connecting Map Lower Left Corner To A Map Location
-16 - (3,40) [CCC -> L36] Edge Connecting Map Lower Left Corner To A Map Location
 25 - (40,39) [L36 -> L35] South Street
 22 - (39,102) [L35 -> C] Turner Street
 21 - (102,38) [C -> L34] 
@@ -158,8 +154,6 @@
 176 - (92,96) [A2 -> A5] 
 595 - (96,125) [A5 -> Z] 
 195 - (125,97) [Z -> A6] 
-19 - (97,4) [A6 -> DDD] Edge Connecting Map Lower Right Corner To A Map Location
-18 - (4,97) [DDD -> A6] Edge Connecting Map Lower Right Corner To A Map Location
 194 - (97,125) [A6 -> Z] 
 594 - (125,96) [Z -> A5] 
 177 - (96,92) [A5 -> A2] 
@@ -189,8 +183,6 @@
 310 - (60,131) [U19 -> 5] 
 307 - (131,59) [5 -> U18] Mandel Rear Access Road
 301 - (59,58) [U18 -> U17] Mandel Rear Access Road
-15 - (58,2) [U17 -> BBB] Edge Connecting Map Upper Right Corner To A Map Location
-14 - (2,58) [BBB -> U17] Edge Connecting Map Upper Right Corner To A Map Location
 300 - (58,59) [U17 -> U18] Mandel Rear Access Road
 306 - (59,131) [U18 -> 5] Mandel Rear Access Road
 319 - (131,129) [5 -> 3] 

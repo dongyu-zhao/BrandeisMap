@@ -1,6 +1,8 @@
-import dataStructure.Edge;
-import dataStructure.MinHeap;
-import dataStructure.Vertex;
+package MapFolder;
+
+import MapFolder.dataStructure.Edge;
+import MapFolder.dataStructure.MinHeap;
+import MapFolder.dataStructure.Vertex;
 
 import java.io.File;
 import java.io.FileNotFoundException;

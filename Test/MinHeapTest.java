@@ -1,4 +1,4 @@
-import dataStructure.MinHeap;
+import MapFolder.dataStructure.MinHeap;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

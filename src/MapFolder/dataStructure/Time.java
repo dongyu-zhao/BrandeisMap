@@ -1,4 +1,4 @@
-package dataStructure;
+package MapFolder.dataStructure;
 
 public class Time {
     private int seconds;

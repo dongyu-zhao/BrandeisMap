@@ -1,4 +1,4 @@
-import dataStructure.UnionFind;
+import MapFolder.dataStructure.UnionFind;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
