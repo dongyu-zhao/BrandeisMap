@@ -108,10 +108,10 @@ public class Graph {
         return vertices[i];
     }
 
-    public Vertex findVertexByName(String name) {
+    public Vertex findVertex(String name) {
         for (Vertex v : vertices) {
             if (v == null) continue;
-            if (v.getName().toLowerCase().contains(name.toLowerCase())) {
+            if (v.getName().toLowerCase().contains(name.toLowerCase()) || v.getLabel().equals(name)) {
                 return v;
             }
         }

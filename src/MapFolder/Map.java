@@ -29,8 +29,8 @@ public class Map {
         String timeFlag = sc.nextLine();
         boolean minTime = !timeFlag.isEmpty() && timeFlag.equals("y");
 
-        Vertex start = g.findVertexByName(startName);
-        Vertex end = g.findVertexByName(endName);
+        Vertex start = g.findVertex(startName);
+        Vertex end = g.findVertex(endName);
         List<Edge> path = g.shortestPath(start, end, hasSkateboard, minTime);
 
         try {
